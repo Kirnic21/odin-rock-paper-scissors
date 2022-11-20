@@ -91,7 +91,6 @@ let playerSelection=prompt("Rock,Paper,or Scissors")
 let computerSelection=getComputerChoice();
 let game=singleround(playerSelection,computerSelection);
 alert(game)
-console.log(i)
 }
 //show alert message that you lost
 if (computerPoints>playerPoints)
